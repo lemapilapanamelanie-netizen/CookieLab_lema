@@ -1,0 +1,47 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookieLab</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <main class="contenedor">
+        <h1>🍪 CookieLab</h1>
+
+        <p id="saludo"></p>
+
+        <section class="preferencias">
+            <h2>Preferencias</h2>
+
+            <label for="tema">Tema:</label>
+            <select id="tema">
+                <option value="claro">Claro</option>
+                <option value="oscuro">Oscuro</option>
+            </select>
+
+            <label for="idioma">Idioma:</label>
+            <select id="idioma">
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+            </select>
+        </section>
+
+        <section class="visitas">
+            <p id="contador"></p>
+            <p id="ultimaVisita"></p>
+        </section>
+
+        <section class="botones">
+            <button id="cambiarNombre">Cambiar mi nombre</button>
+            <button id="olvidarme">Olvidarme</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+```
